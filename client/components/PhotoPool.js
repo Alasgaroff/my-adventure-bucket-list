@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
 import Photo from './Photo'
+import { Link } from 'react-router-dom'
 
 class PhotoPool extends Component {
+    
     render() {
-        return <div className="photoGrid">
-            {this.props.posts.map((post, index) => <Photo key={index} post={post} onRemovePhoto={this.props.onRemovePhoto}/>)}
+        return <div> 
+            <Link className="addAdventure" to = "/AddAdventure"> Add Adventure</Link>,
+            <div className="photoGrid">
+            {this.props.posts.map((post, index) => <Photo key={index} post={post} removePhoto={this.props.removePhoto}/>)}
+            </div>
         </div>
     }
 }
