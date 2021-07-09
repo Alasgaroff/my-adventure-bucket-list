@@ -29,8 +29,8 @@ class AddAdventure extends Component {
                 <h1>Add more Adventures to your Bucket List</h1>
                 <div className="form">
                     <form onSubmit={this.handleSubmit}>
-                        <input type="text" name="inputLink"placeholder="please insert your photo url here" />
-                        <input type="text" name="inputCaption"placeholder="please add a caption here" />
+                        <input type="text" name="inputLink"placeholder="insert your photo url here" />
+                        <input type="text" name="inputCaption"placeholder="add a caption here" />
                         <button className="postButton">POST</button>
                     </form>
                 </div>
