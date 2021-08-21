@@ -1,4 +1,4 @@
-# my-adventure-portfolio-project
+# my-adventure-portfolio
 
 ### My Adventure Bucket List is online app to create a portfolio of visited locations.
 
