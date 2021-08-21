@@ -3,7 +3,7 @@
 ### My Adventure Bucket List is online app to create a portfolio of visited locations.
 
 To create a portfolio user should login and add a url of a picture of visited destination by using Add Adventure functionality. 
-User can also add a description to the post. 
+User can also add a caption to the post to make it more descriptive. 
 
 ## Technology Stack
 
